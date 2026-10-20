@@ -1,0 +1,35 @@
+PASS cache hit formula
+PASS zero input is missing ratio
+PASS cache miss subtracts cache only
+PASS invalid cached greater than input
+PASS large token counts
+PASS cumulative snapshots not summed
+PASS duplicate snapshots
+PASS turn includes multiple calls
+PASS next answer uses baseline
+PASS repeated turn_context retains baseline
+PASS missing turn is explicit
+PASS null info ignored
+PASS bad lines tolerated
+PASS counter rollback marked uncertain
+PASS negative counters ignored
+PASS turn completion changes activity
+PASS subagent metadata
+PASS fork metadata
+PASS actual 5h duration
+PASS weekly duration independent of slot
+PASS unknown duration not assumed
+PASS nonweekly 10000 minutes
+PASS buckets preserve model limits, avoid legacy duplicate
+PASS empty map legacy fallback
+PASS missing window not zero percent
+PASS invalid used value omitted
+PASS reset unix seconds
+PASS invalid reset not crash
+PASS overlimit remaining clamped
+PASS partial JSONL then append and repeated refresh
+PASS file truncation resets state
+PASS UTF8 split line
+PASS duplicate session IDs deduplicate
+PASS missing directory is explicit
+RESULT: 34 passed, 0 failed
